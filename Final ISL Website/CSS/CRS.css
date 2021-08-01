@@ -1,0 +1,97 @@
+html, body{
+    overflow-x: hidden;
+}
+
+.resources{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    color: #152b5a;
+    margin-top: 30px;
+    width: 750px;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin-bottom: 60px;
+}
+
+
+
+.resHeader{
+    line-height: 1.6;
+}
+
+.resHeader h1{
+    font-weight: normal;
+  
+}
+
+.resHeader p{
+    font-size: 19px;
+}
+
+
+
+.resPar{
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.resPar p, .resPar h3, .website{
+    margin-top: 10px;
+    font-size: 19px;
+
+}
+
+.website a{
+    border-bottom: 1px dashed #5ba6c3;
+}
+
+.website a{
+    text-decoration: none;
+    color: #5ba6c3;
+}
+
+
+.website a:hover{
+    color: #49859c;
+    border-bottom: 1px dashed #49859c;
+}
+
+.btmimg{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.btmimg img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .resources{
+        width: 100%;
+    }
+
+    .resPar, .resHeader{
+        padding: 30px;
+        margin: 0;
+    }
+
+    .resPar p, .resHeader p{
+        text-align:justify;
+        word-break: break-all;
+        
+    }
+
+}
+
+@media screen and (max-width: 300px){
+    .website span{
+        width: 100px;
+    }
+}

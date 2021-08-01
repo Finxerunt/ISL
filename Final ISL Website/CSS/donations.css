@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+
+main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a{
+    font-family: 'Noto Serif SC', serif;
+}
+
+  .topofpage{
+    background-image: url(https://files.socioeconlabs.org/images/mountain_image.jpeg);
+  min-height: 45vh;
+  background-size:cover;
+  background-repeat: no-repeat;
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-end;
+  }
+  .topofpage:after{
+    position: absolute;
+    height: calc(45vh + 7rem);
+    width: 100%;
+    background-color: rgb(28, 69, 135 ,.3);
+    top: 0;
+    left: 0;
+    display: block;
+    content: "";
+  }
+  .topofpage h1{
+    z-index: 1;
+    font-weight:500;
+  color:white;
+  padding-bottom: 4vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  }
+  .firsttext{
+    width:95%;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+  }
+  .firsttext h1{
+    font-weight:500;
+        color: #004766;
+        margin-bottom:2rem;
+        margin-top:2rem;
+  }
+  .firsttext h1 em{
+    font-weight:700;
+  }
+  .firsttext p em{
+    font-weight:700;
+  }
+  .sectionone{
+    line-height: 1.4;
+    font-size:1.25rem;
+    flex-basis:85%;
+  }
+  .sectiontwo img{
+    width:65%;
+  }
+  .secondsection{
+    margin:auto;
+    margin-top:2.5rem;
+    padding-bottom:1rem;
+  }
+  .thirdsection{
+  text-align:center;
+  width:65%;
+  padding-top:5rem;
+  margin:auto;
+  }
+  .thirdsection h1{
+      color: #004766;
+      margin-bottom:2rem;
+  }
+  .thirdsection p{
+    margin-bottom:4rem;
+    font-size:1.25rem;
+  }
+  @media screen and (max-width: 1024px){
+    .firsttext{
+      flex-direction:column;
+    }
+    .sectiontwo img{
+      width:90%;
+    }
+    .topofpage h1{
+      font-size:1.5rem;
+    }
+    .thirdsection{
+      width:85%;
+    }
+  }
+  ul {
+    list-style: none;
+    color: #1c4587;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 7rem;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgb(247, 244, 244);
+    color: #1c4587;
+}

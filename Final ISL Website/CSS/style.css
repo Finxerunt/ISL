@@ -1,0 +1,441 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #122331;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.header-image>img {
+    width: 100%;
+}
+
+.header-image {
+    width: 60%;
+}
+
+
+.header-text {
+    width: 40%;
+    padding: 50px; 
+    word-wrap: break-word;
+    background-color: white;
+    margin-bottom: 6px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+.header-topic {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.header-date-author {
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header-summary {
+    font-size: 15px;
+    padding-top: 25px;
+    font-family: 'Noto Serif SC', serif;
+}
+
+a.header-topic,a.header-title:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.header-topic,a.header-title:visited {
+    color: inherit;
+}
+
+a.container-list0:hover {
+    text-decoration: underline;
+}
+
+a.header-topic:hover {
+    text-decoration: underline;
+}
+
+a.header-title:hover {
+}
+
+
+@media only screen and (max-width: 1308px) {
+    .header1 {
+        flex-direction: column;
+    }
+    .header-image {
+        width: 100%;
+        height: 50%;
+    }
+
+    .header-text {
+        background-color: white;
+        padding: 20px;
+        width: auto;
+    }
+  }
+
+  div
+{
+    display: block;
+    
+}
+
+a
+{
+    background-color: transparent;
+    text-decoration: none;
+    color: #122331;
+}
+
+.articleFeature
+{
+    display: flex;
+    flex-flow: row wrap;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+    overflow-x: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1800px;
+    margin-top: 0px;
+
+}
+/* column 1 */
+.articleFeatCol1
+{
+    width: 40%;
+    height: 100%;
+    padding: 32px 16px 0px 16px; /* top right bottom left */
+    margin-left: 16px;
+    flex: 1;
+    
+}
+/* article top */
+.articleTop img
+{
+    width: 100%;
+    float: left;
+}
+
+/* article bottom */
+.articleBot 
+{
+    width: 100%;
+    float: left;
+}
+.articleBot .articleType
+{
+    line-height: 1.6em; 
+    padding: 10px 0px 0px 0px;
+}
+.articleType
+{
+    font-size: 0.65em;
+    font-weight: 500;
+    line-height: 1.25em;
+    text-transform: uppercase;
+    
+}
+.articleBot
+{
+    font-size: 1em;
+    margin-bottom: 0;
+}
+.articleTitle {
+    font-size: 1.2em;
+}
+
+
+
+/* article details */
+.articleBot .articleDetail
+{
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.articleBot .articleDetail .articleDesc
+{
+    margin-top: .5em;
+    display: block;
+}
+
+.articleDetail {
+    font-size: 0.9em;
+}
+
+/* article column 2 */
+.articleFeatCol2
+{
+    width: 40%;
+    height: 100%;
+    padding: 32px 16px 0px 16px;
+    flex: 1;
+}
+
+.articleFeatCol3
+{
+    width: 20%;
+    height: 25%;
+    padding: 32px 16px 0px 16px;
+    margin-right: 16px;
+    flex: 1;
+}
+
+.articleFeatCol3 .otherArticles
+{
+    margin-bottom: 1.6em;
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+    .articleFeature{
+        width: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 500px)
+{
+    .articleFeatCol1, .articleFeatCol2, .articleFeatCol3
+    {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-basis: 100%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 800px)
+{
+    .articleFeature {
+        flex-direction: column;
+       width: 100%;
+       margin-bottom: 0px;
+    }
+    .articleFeatCol1
+    {
+        flex-basis: 40%;
+        margin-left: 16px;
+        width: 100%;
+        margin: 0;
+        
+    }
+    .articleFeatCol2
+    {
+        flex-basis: 40%;
+        margin-left: 16px;
+        width: 100%;
+        margin: 0;
+    }
+    .articleFeatCol3
+    {
+        flex-basis: 100%;
+        margin-left: 16px;
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/*FACULTY*/
+.faculty{
+    text-align: center;
+    justify-content: center;
+   margin-top: 80px;
+  padding-bottom: 40px;
+  
+  }
+  
+  .factxt span{
+    font-size: 24px;
+    color:  #122331;
+    justify-content: center;
+    text-align: center;
+    /*background: linear-gradient(to top, rgb(104, 226, 226) 50%, transparent 50%);*/
+    background-size: 200%;
+    font-weight: 700;
+  
+  }
+  
+  .facimgs{
+    /*display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;*/
+    margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 100%;
+   
+   
+  }
+  
+  .facimgrow{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .facimg{
+  
+    width: 100%;
+    height: 100%;
+    
+   
+  }
+  
+  .facimg img{
+    width: 70%;
+    height: 100%;
+  }
+  @media screen and (max-width: 900px) {
+    .faculty{
+      transform: translateY(120px);
+      margin-bottom: 150px;
+      margin-top: 0px;
+    }
+    .factxt{
+      margin-bottom: 20px;
+    }
+    .factxt span{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .facimgs{
+      justify-content: center;
+      margin: auto;
+      padding: 0px;
+      
+    }
+  
+    .facimgrow{
+      flex-direction: column;
+    }
+  
+    .facimg img{
+      width: 100%;
+      height: 100%;
+      padding: 20px 35px;
+  
+    }
+  }
+  
+
+  .buttonContainer {
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.campaigns {
+    width: 50%;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.buttonTitle {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.buttonDesc {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.campaignButton, .donateButton{
+    display: inline-block;
+    padding: 14px;
+    border-radius: 30px;
+    background-color: #122331;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.4s;
+    font-family:'Nunito Sans', sans-serif;
+    font-weight: 550;
+}
+
+.donate {
+    width: 50%;
+    padding-left: 25px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.campaignButton:hover {
+    opacity: 0.8;
+}
+
+.donateButton:hover {
+    opacity: 0.8;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .buttonContainer {
+        padding: 30px 20px;
+        margin: 0;
+        flex-direction: column;
+    }
+    .buttonDivider {
+        display: none;
+    }
+    .campaigns, .donate {
+        width: 100%;
+        padding: 0;
+    }
+    .donate {
+        margin-top: 40px;
+    }
+}
+
+.colorBar{
+    width: 100%;
+    background-color: #122331;
+  
+    height: 80px;
+}
+
+.header1{
+    margin-bottom: 0px;
+}
