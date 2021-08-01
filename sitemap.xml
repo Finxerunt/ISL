@@ -1,127 +1,566 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 
-<url>
-  <loc>https://socioeconlabs.org/</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/index.html</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/mission</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/executive</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/directors</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/researchers</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/join</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/contact</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/publications</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/journalism</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/resources</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/communities</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/health</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/education</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/equality</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/research</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/cresources</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/schapter</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/campaigns</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/donations</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/collegeapp</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/hsapp</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://socioeconlabs.org/contact.html</loc>
-  <lastmod>2021-03-28T01:59:24+00:00</lastmod>
-  <priority>0.64</priority>
+-<url>
+
+<loc>https://socioeconlabs.org/</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>1.00</priority>
+
 </url>
 
+
+-<url>
+
+<loc>https://socioeconlabs.org/mission</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/executive</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/directors</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/irb</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/pi</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/researchers</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/join</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/contact</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/publications</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/journalism</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/resources</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/communities</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/health</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/education</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/equality</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/research</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/cresources</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/schapter</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/campaigns</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/donations</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.80</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/ryan-ahmed</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/mahmoud-abdellatif</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/sarah-derkach</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/grace-lorch</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/sarah-infante</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/erick-rengifo</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/bryn-austin</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/lucas-chu</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/sebastian-galiani</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/robert-hauhart</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/filiz-akgul</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/ludomir-lozny</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/maya-dunayer</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/cynthia-tan</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/philip-hanser</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/vito-frank-leonardo</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/himani-tiwari</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/charlie-infantino</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/dvir-avnon-klein</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/profiles/suleman-ahmed</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/index.html</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/articles/blackrollnroll/</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/articles/breakingdowntherelationshipbetweenmusic&theteenagehumanpsyche/</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/articles/doublestandardsinthemusicindustry/</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/articles/musictherapyisarealitychanger/</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/articles/economic%20shifts%20in%20the%20music%20industry/economic%20impact%20and%20music</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/articles/how%20has%20music%20affected%20american%20politics/politicsmusic</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/articles/in%20conversation%20with%20matthew%20longo/interview</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/articles/why%20kpop%20is%20profitable,%20but%20white-washed/kpop%20whitewash</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
+
+
+-<url>
+
+<loc>https://socioeconlabs.org/schapter.html</loc>
+
+<lastmod>2021-08-01T18:54:57+00:00</lastmod>
+
+<priority>0.64</priority>
+
+</url>
 
 </urlset>
