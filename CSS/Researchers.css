@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, span{
+    font-family: 'Noto Serif SC', serif;
+}
+
+.econ-course .text-container{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.econ-course h2{
+    font-size: 1.7rem;
+    padding-bottom: 7px;
+    border-bottom: 0.1rem solid #d2cece;
+}
+
+.econ-course .description{
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+    font-size: 1.2rem;
+}
+
+.econ-course .outer-container h3{
+    width: fit-content;
+    margin: 2rem 15%;
+    padding: 0.5rem 1rem;
+    font-size: 1.6rem;
+    border-bottom: 0.3rem solid #d4d4d4;
+}
+
+.econ-course .videos{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+}
+
+.econ-course .videos .video-container{
+    position: relative;
+    overflow: hidden;
+    width: calc(30% - 1rem);
+    padding-top: 20%;
+}
+
+.econ-course .videos iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.econ-course .images{
+    max-width: 1200px;
+    margin: 1.5rem auto 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.econ-course .images img{
+    height: 8rem;
+}
+
+@media only screen and (max-width: 1200px){
+
+    .econ-course .text-container{
+        max-width: 700px;
+    }
+
+    .econ-course .text-container .description{
+        font-size: 1rem;
+    }
+
+    .econ-course .images{
+        padding: 0 3rem;
+    }
+
+    .econ-course .images img{
+        height: 5rem;
+    }
+
+    .econ-course .outer-container h3{
+        margin: 2rem 5%
+    }
+
+}
+
+@media only screen and (max-device-width: 700px){
+
+    .econ-course .videos{
+        flex-wrap: wrap;
+    }
+
+    .econ-course .videos .video-container{
+        width: 90%;
+        padding-top: 50%;
+    }
+
+    .econ-course .images{
+        padding: 0;
+        justify-content: center;
+    }
+
+    .econ-course .images img{
+        height: 3rem;
+    }
+
+}
+
+.main-container{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.main-container h2{
+    font-size: 1.7rem;
+    padding-bottom: 7px;
+    border-bottom: 0.1rem solid #d2cece;
+}
+
+.main-container .person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.main-container .card-left{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 0.1rem solid #d2cece;
+}
+
+.main-container .person .image-container{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-container .person img{
+    width: 10rem;
+    height: auto;
+}
+
+.main-container .person .who{
+    text-align: center;
+    width: 50%;
+    margin-left: 6%;
+}
+
+.main-container .person .who h3{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.main-container .person .who p{
+    font-size: 1.3rem;
+}
+
+.main-container .person .center-text{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-container .person .description{
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1200px){
+
+    .main-container{
+        max-width: 700px;
+    }
+
+    .main-container .card-left{
+        flex-direction: column;
+    }
+
+    .main-container .person .who{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-device-width: 700px){
+
+    .main-container .person{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-container .card-left{
+        border: none;
+        width: 90%;
+    }
+
+    .main-container .person .who{
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+
+    .main-container .person .center-text{
+        width: 90%;
+    }
+
+}
