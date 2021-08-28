@@ -1,75 +1,526 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Home</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
- <link rel="icon" type="image/png" href="https://files.socioeconlabs.org/images/favicon.png"/>
- <style> body{
-  margin:0;
-  padding:0;
-  width:100%;
-  height: 100vh;
-  background-color:#1c4587;
-  background-size: cover;
-  display:table;
-}
-.container{
-  padding-top:150px;
-  text-align:center;
-  margin:auto;
-  width:90%;
-}
-h1{
-  margin-top:0;
-  color: white;
-  font-family: "Lora";
-  font-weight: 300;
-  font-size: 450%;
-  margin-bottom: 40px;;
-  text-align:center;
-}
-.btn{
-  position: relative;
-  color: white;
-  font-size: 14px;
-  font-family: "Lora";
-  text-decoration: none;
-  margin: 30px 0;
-  border: 2px solid #ea7836;
-  padding: 14px 60px;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 1s all ease;
-}
-.btn::before{
-  background: #ea7836;
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  z-index: -1;
-  transition: all 0.6s ease;
-}
-.color::before{
-  width: 0%;
-  height: 100%;
-}
-
-.color:hover::before{
-  width: 100%;
-}
-  </style>
-</head>
-<body>
-  <div class="container">
-    <img src="https://files.socioeconlabs.org/Images/Lab%20Logo%20(13).png" alt="">
-    <h1>Coming Soon</h1>
-    <a href="https://socioeconlabs.org/" class="btn color">Take me back</a>
-  </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Homepage"/>
+        <meta content="The International Socioeconomics Laboratory is a global research institute made up of young adults that strives to find adequate solutions to current socio-economic problems. We use existing records and data to create our comprehensive models and studies to find the root cause of these problems and the best ways to fix them. Our information collection is not limited to what is already in sight; we also collect information and data through surveys and experiments. The goal of Socioeconlabs is clear; assess and address the issues that face our society and create solutions to them to foster a more significant, better community." name="description">
+        <meta content="Socioeconomic, laboratory, ISL, Finxerunt" name="keywords">
+        <meta content="og:image:secure_url" content="https://files.socioeconlabs.org/Images/Meta.png"/>
+        <title>Awarded Researchers</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://files.socioeconlabs.org/CSS/nav.css"/>
+        <link rel="icon" type="image/png" href="https://files.socioeconlabs.org/images/Favicon.png"/>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200&display=swap" rel="stylesheet">
+        <link href="CSS/Researchers.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="mobile-head">
+                <a href="https://socioeconlabs.org/">International Socioeconomics Laboratory</a>
+            </div>
+            <div class="menu-btn">
+                <div class="menu-btn__lines"></div>
+            </div>
+            <div class="overheader">
+                <a href="https://socioeconlabs.org/" class="islblue">International Socioeconomics Laboratory</a>
+            </div>
+            <ul class="menu-items">
+                <li>
+                    <a href="https://socioeconlabs.org/" class="menu-item whitehover">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="menu-item expand-btn whitehover">About</a>
+                    <div class="mega-menu expandable">
+                        <div class="content">
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/mission" class="white">Mission</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://socioeconlabs.org/executive" class="white">Executive Board</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://socioeconlabs.org/directors" class="white">Board of
+                                            Directors</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/irb" class="white">Institutional Review
+                                            Board</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://socioeconlabs.org/PI" class="white">Principal Investigators</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://socioeconlabs.org/researchers" class="white">Awarded
+                                            Researchers </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/join" class="white">Applications</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://pressroom.socioeconlabs.org/" class="white">Pressroom</a>
+                                        </li>
+                                        <li>
+                                            <a href=" https://socioeconlabs.org/contact" class="white">Contact</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="menu-item expand-btn whitehover">Publications</a>
+                    <div class="mega-menu expandable">
+                        <div class="content">
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/publications" class="white">Journals</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/journalism" class="white">Journalism Articles
+                                        </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/resources" class="white">Resources </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="menu-item expand-btn whitehover">Research</a>
+                    <div class="mega-menu expandable">
+                        <div class="content">
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/communities" class="white">Communities</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://socioeconlabs.org/health" class="white">Health</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/education" class="white">Education Reform</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://socioeconlabs.org/equality" class="white">Equality</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/research" class="white">All Research </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://socioeconlabs.org/contact" class="white">Contact</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col"></div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="menu-item expand-btn whitehover">Chapter</a>
+                    <div class="mega-menu expandable">
+                        <div class="content">
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://files.socioeconlabs.org//Files/INTERNATIONAL%20SOCIOECONOMIC%20LABORATORY%20CHAPTER%20STARTER%20GUIDE.pdf" class="white">Chapter Guide</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/cresources" class="white">Start a Chapter</a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                            <div class="col">
+                                <section>
+                                    <ul class="mega-links">
+                                        <li>
+                                            <a href="https://socioeconlabs.org/schapter" class="white">Chapter Resources
+                                        </a>
+                                        </li>
+                                    </ul>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="https://symposium.socioeconlabs.org/" class="menu-item whitehover">Symposium</a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <section class="econ-course">
+                <div class="text-container">
+                    <h2>Fellowship &Course</h2>
+                    <p class="description">
+                        This undergraduate-level Economics 50 course is an introduction to modern applied economics with 45 hours of total instruction throughout six weeks through empirical projects, IRB-approved translative research, faculty lectures, office hour workshops, literature readings, and interactive competitions overseen by the generous intercollegiate academic support and facilitation of volunteer experts.
+<br>
+                        <br>
+                        The topics in this course include equality of opportunity, education, health, environmental economics, and criminal justice to introduce basic statistical methods and data analysis techniques, including regression analysis, causal inference, quasi-experimental methods, and machine learning. Course lectures supplement the development of research projects throughout the fellowship and to give students academic exposure in approaches to education not often offered at many schools.
+<br>
+                        <br>The course has three main learning objectives: 1) expose students to quantitative analysis on important social and economic issues, 2) teach students how to interpret data using current quantitative methods and simple programming techniques, and 3) demonstrate how practitioners use data to analyze social problems. The course is instructed in a manner in which socioeconomics is taught like laboratory science. Using the practice from the book “In Search of Deeper Learning”, there is emphasis in project-based learning.
+                
+                    </p>
+                </div>
+                <div class="outer-container">
+                    <h3>Sample Lectures</h3>
+                    <div class="videos">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/H9h2_QglrD0"></iframe>
+                        </div>
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/YE2gGaaK5eE"></iframe>
+                        </div>
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/_BnMTSD6Vfs"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="outer-container">
+                    <h3>Collaborators From</h3>
+                    <div class="images">
+                        <img src="https://files.socioeconlabs.org/Images/wharton.png" alt="Wharton">
+                        <img src="https://files.socioeconlabs.org/Images/MIT.png" alt="MIT">
+                        <img src="https://files.socioeconlabs.org/Images/London-Business-School.jpeg" alt="London Business School">
+                        <img src="https://files.socioeconlabs.org/images/lse-logo.png" alt="London School of Economics">
+                        <img src="https://files.socioeconlabs.org/Images/University-Of-Essex.jpeg" alt="University of Essex">
+                        <img src="https://files.socioeconlabs.org/Images/Tulane-University.png" alt="Tulane University">
+                        <img src="https://files.socioeconlabs.org/images/HarvardChan_logo_hrz_alt_cmyk_SUPERLARGE.png?width=1440&height=262" alt="Harvard Chan School">
+                        <img src="https://files.socioeconlabs.org/Images/IQSS.png" alt="IQSS">
+                        <img src="https://files.socioeconlabs.org/Images/Public-Lab-Mongolia.jpeg" alt="Public Lab Mongolia">
+                        <img src="https://files.socioeconlabs.org/Images/KIOCH.png" alt="KIOCH">
+                        <img src="https://files.socioeconlabs.org/images/1200px-CUNY_New_Logo.png" alt="CUNY">
+                        <img src="https://files.socioeconlabs.org/Images/Yale-Law-School.png" alt="Yale Law School">
+                        <img src="https://files.socioeconlabs.org/Images/John_Hopkins.png" alt="John Hopkins University">
+                    </div>
+                </div>
+            </section>
+            <section class="main-container">
+                <h2>Awarded Researchers and Lecturers</h2>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/Images/People-Photos/BAustin_Headshot-1208x1536.jpg" alt="Dr. Bryn Austin">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Bryn Austin</h3>
+                                <p class="college">Harvard Chan School of Public Health</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Dr. Austin is an award-winning researcher, teacher, and mentor. She is Professor of Social and Behavioral Sciences at the Harvard Chan School of Public Health, Professor of Pediatrics at Harvard Medical School, and Research Faculty in the Division of Adolescent and Young Adult Medicine at Boston Children’s Hospital. She is the Founding Director of the Strategic Training Initiative for the Prevention of Eating Disorders: A Public Health Incubator at the Harvard Chan School of Public Health and Boston Children’s Hospital. She is also the founder and faculty member of the Sexual Orientation, Gender Identity and Expression Health Equity Research Collaborative, also based at the Harvard Chan School of Public Health and Boston Children’s Hospital.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/Gary_Hoover.jpeg" alt="Dr. Gary Hoover">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Gary Hoover</h3>
+                                <p class="college">Tulane University</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">My research focuses on the intersection of economics, race, and public policy. I am currently the Executive Director of the Murphy Institute and a professor in the Department of Economics at Tulane University. Since 2012, I have been co-chair of the American Economic Association Committee on the Status of Minority Groups in the Economics Profession. I am also the current and founding editor of the Journal of Economics, Race and Policy, past Vice-President of the Southern Economic Association, and a fellow of CESifo Group Munich. Previously, I was appointed a President's Associates Presidential Professor at the University of Oklahoma and chair of the university's Department of Economics. Prior to that, I was the William White McDonald Family Distinguished Faculty Fellow at the University of Alabama and Assistant Dean for Faculty and Graduate Student Development in the Culverhouse College of Business Administration.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/Images/People-Photos/Sebastian%20Galiani.jpg" alt="Dr. Sebastian Galiani">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Sebastian Galiani</h3>
+                                <p class="college">University of Maryland</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Sebastian Galiani is Professor of Economics at the University of Maryland. He obtained his PhD in Economics from the University of Oxford and works broadly in the field of Development Economics. He is also a Fellow of the NBER and BREAD. Sebastian was Secretary of Economic Policy, Deputy Minister, Ministry of Treasury, Argentina, between January of 2017 and June of 2018.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/Prabal_K_De.jpeg" alt="Dr. Prabal K. De">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Prabal K. De</h3>
+                                <p class="college">The City College of New York</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Dr. Prabal K. De is a Professor of Economics in the Colin Powell School at the City College and a doctoral faculty at the Graduate Center of the City University of New York. His recent research focuses on access, outcome, and disparities in health and education. His work has been funded by National Cancer Institute and the Murphy Institute, among others. Previously, he was a short-term consultant with the World Bank Group in Washington, DC. He holds a Ph.D. in Economics from New York University.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/Images/People-Photos/Hauhart.jpg" alt="Dr. Robert Hauhart">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Robert Hauhart</h3>
+                                <p class="college">Saint Martin's University</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Robert Hauhart, Ph.D., J.D., is a professor and former chair of the Department of Society and Social Justice (2010-2013) at Saint Martin's University. Serving on the faculty since 2006, Dr. Hauhart leads the undergraduate criminal justice and legal studies programs within the liberal arts curriculum. He also acts as pre-law advisor and offers courses within the sociology major. In 2008, he was named Monks of Saint Martin's Abbey Outstanding Faculty Member.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/Images/People-Photos/filiz-akgul-Cropped-200x200.jpg" alt="Dr. Filiz Akgul">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Filiz Akgul</h3>
+                                <p class="college">The London School of Economics</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Dr Filiz Akgul, Turkish Canadian by origin, joined LSE as a visiting researcher specialising on the structural forms of exclusion, by the study of human rights advocates and immodest women in rural and urban Turkey. Dr Akgul, was awarded a PhD in political sociology for her work on the study of police brutality as it occurred during Gezi Park protests in Turkey in 2013 and its similarities and discrepancies with domestic violence. During her appointment at Lancaster University, as a postdoctoral researcher, she connected domestic violence and police violence to the structures of relevant political systems.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/Jo%C3%A3o_Rafael_Cunha.jpeg" alt="Dr. João Rafael Cunha">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. João Rafael Cunha</h3>
+                                <p class="college">University of St Andrews</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">I am an applied economist with research interests in financial regulation, banking, political economy, law and economics, economic history, macro-finance, and international macroeconomics and finance. I am a Lecturer (Assistant Professor) in the School of Economics and Finance at the University of St Andrews.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/John_Larson.jpeg" alt="Dr. John L Larson">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. John L Larson</h3>
+                                <p class="college">Purdue University</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Professor Larson is an Iowan by birth and may one day become a Hoosier when his probationary period is up. He studied history at Luther College and Brown University. Before coming to Purdue in 1983 he served as Director of Research at Conner Prairie Pioneer Settlement and taught at Earlham College. From 1994 to 2004 he was coeditor, with Michael A. Morrison, of the Journal of the Early Republic.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/Matt_Holian.jpeg" alt="Dr. Matt Holian">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Matt Holian</h3>
+                                <p class="college">San Jose University</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Matthew Holian is a professor in economics. His research is finding out effective housing and transportation policies in lowering energy consumption and fighting climate change. Over the past decade, much of my research has focused on the climate-change impacts of transportation. My view is that climate change is the defining issue of our time, and I have continued to work in this area, widening my focus to include building codes and wildfire prevention.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/Patrick_Mason.jpeg" alt="Dr. Patrick Mason">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Patrick Mason</h3>
+                                <p class="college">Florida State University</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Mason is professor of economics and director of the African-American Studies Program. His primary areas of expertise include labor, political economy, development, education, social identity and crime. He is particularly interested in racial inequality, educational achievement, income distribution, unemployment, economics of identity, family environment and socioeconomic well-being. Mason is also the general editor of the International Encyclopedia of Race and Racism and has authored more than 90 journal articles, book chapters, books and other professional publications.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/Dmitry_Taubinsky.jpeg" alt="Dr. Dmitry Taubinsky">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Dmitry Taubinsky</h3>
+                                <p class="college">University of California, Berkeley</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">I am an assistant professor of economics at UC Berkeley and a faculty research fellow at the National Bureau of Economic Research. Using a combination of theory, field experiments, surveys, and quasi-experiments, I study topics such as: inattention to and misunderstanding of complex tax incentives; "sin taxes" on goods such as sugary drinks; energy policy for inattentive or misinformed consumers; welfare effects of non-standard policy levers (e.g., social recognition); and financial decision-making by low income populations (e.g., payday loan borrowers).
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/Joseph_Vitriol.jpeg" alt="Dr. Joseph Vitriol">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Joseph Vitriol</h3>
+                                <p class="college">Harvard University &Stony Brook University</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Joseph A. Vitriol is a Senior Researcher in the Political Science Department at Stony Brook University. He  was formerly a College Fellow in the Psychology Department at Harvard University and a Postdoctoral Research Associate in the Psychology Department at Lehigh University. He holds a PhD in Social and Political Psychology from the University of Minnesota, Twin Cities and a BA/MA in Forensic Psychology from John Jay College of Criminal Justice.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="people-container">
+                    <div class="person">
+                        <div class="card-left">
+                            <div class="image-container">
+                                <img src="https://files.socioeconlabs.org/images/people-photos/Matthew_Kahn.jpeg" alt="Dr. Matthew Kahn">
+                            </div>
+                            <div class="who">
+                                <h3 class="name">Dr. Matthew Kahn</h3>
+                                <p class="college">University of Southern California</p>
+                            </div>
+                        </div>
+                        <div class="center-text">
+                            <p class="description">Matthew E. Kahn is a Provost Professor of Economics at the University of Southern California.  He is a research associate at the National Bureau of Economic Research and a research fellow at IZA.  He has taught at Columbia, the Fletcher School at Tufts University, UCLA , and Johns Hopkins University.  He has served as a Visiting Professor at Harvard, Stanford and the National University of Singapore.   He is a graduate of Hamilton College and the London School of Economics.  He holds a Ph.D. in Economics from the University of Chicago. 
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="tp">
+                <div class="topleft">
+                    <small>
+                        <p4>International Socioeconomics Laboratory</p4>
+                    </small>
+                    <br>
+                    <small>
+                        <p4>441 E Fordham RD Dealy Hall E 513 Bronx, NY 10458</p4>
+                    </small>
+                </div>
+                <div class="topright">
+                    <small>
+                        <a href=https://socioeconlabs.org/contact>
+                            <p>Contact Us</p>
+                        </a>
+                    </small>
+                </div>
+            </div>
+            <div class="btm">
+                <a href=https://socioeconlabs.org>
+                    <div class="btmleft">
+                        <img src="https://files.socioeconlabs.org/Images/Footer.png">
+                    </div>
+                </a>
+                <div class="btmright">
+                    <a href=https://socioeconlabs.org/Mission.html>
+                        <p>Mission</p>
+                    </a>
+                    <a href=https://socioeconlabs.org/donations>
+                        <p>Donations</p>
+                    </a>
+                    <a href=https://socioeconlabs.org/Join.html>
+                        <p>Applications</p>
+                    </a>
+                    <a href=https://socioeconlabs.org/Publications.html>
+                        <p>Publications</p>
+                    </a>
+                </div>
+            </div>
+        </footer>
 </body>
+
 </html>
