@@ -336,11 +336,6 @@ main, main h1, main h2, main h3, main h4, main h5, main h6, main p, main a, span
     padding: 40px 100px 40px 50px;
 }
 
-#related-topics h2{
-    font-size: 30px;
-    margin-bottom: 40px;
-}
-
 #related-topics #flex-container{
     display: flex;
     flex-direction: row;
